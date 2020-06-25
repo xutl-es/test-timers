@@ -1,0 +1,30 @@
+{
+	"name": "@xutl/test-timers",
+	"version": "1.0.1",
+	"description": "Mocked/Intercepted Timers",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "xutltest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xutl-es/test-timers.git"
+	},
+	"keywords": [
+		"XtremelyUsefulToolLibraries",
+		"Timers",
+		"Testing",
+		"setTimeout",
+		"setInterval",
+		"setImmediate"
+	],
+	"author": "XUTL <dev@xutl.es>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/xutl-es/test-timers/issues"
+	},
+	"homepage": "https://xutl.es",
+	"devDependencies": {
+		"typescript": "^3.9.5"
+	}
+}
