@@ -134,7 +134,7 @@ globalThis.Immediate = (spot: any) => {
 	return true;
 };
 
-export default function initialize(ms: number = Legacy.now()) {
+export function initialize(ms: number = Legacy.now()) {
 	timers.clear();
 	time = ms;
 }
@@ -169,3 +169,17 @@ function runTimer(timer: TimerType, spot: symbol) {
 	timer.start = time;
 	if (!timer.repeat) timers.delete(spot);
 }
+
+const Default = {
+	Date,
+	setImmediate,
+	clearImmediate,
+	setTimeout,
+	clearTimeout,
+	setInterval,
+	clearInterval,
+	initialize,
+	update,
+	bump,
+};
+export default Default;
