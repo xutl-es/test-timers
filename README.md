@@ -1,11 +1,11 @@
-# @xutl/timers
+# @xutl/test-timers
 
 One [eXtremely Useful Tool Library](https://xutl.es) useful for testing, when timers should be intercepted and manually advanced. This also overrides Date to always be in accord with what the time should be according to this library
 
 ## Install
 
 ```bash
-npm install --save-dev @xutl/timers
+npm install --save-dev @xutl/test-timers
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install --save-dev @xutl/timers
 Load and initialize the global environmet.
 
 ```bash
-node -r @xutl/timers my-test.js
+node -r @xutl/test-timers my-test.js
 ```
 
 ```typescript
